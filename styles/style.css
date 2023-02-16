@@ -17,13 +17,25 @@
     font-size: 20px;
 }
 
-main {
+main,
+footer {
     max-width: 1100px;
     margin: 0 auto
 }
 
 .container {
     margin-top: 100px;
+}
+
+.facts-title,
+.sponsor-title,
+.banner-title,
+.team-work-title,
+.features-container-title,
+.design-title {
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 24px;
 }
 
 
@@ -79,13 +91,6 @@ main {
 }
 
 
-
-.banner-title {
-    margin-bottom: 30px;
-    font-weight: 700;
-    font-size: 64px;
-}
-
 .banner-description {
     margin-bottom: 40px;
 }
@@ -113,11 +118,7 @@ main {
     gap: 24px;
 }
 
-.team-work-title {
-    font-weight: 500;
-    font-size: 45px;
-    margin-bottom: 24px;
-}
+
 
 .colored-title {
     color: rgb(64, 45, 172);
@@ -145,12 +146,6 @@ main {
     height: 800px;
 }
 
-.features-container-title {
-    font-weight: 700;
-    font-size: 45px;
-    margin-bottom: 24px;
-}
-
 .features {
     width: 400px;
 
@@ -170,6 +165,7 @@ main {
 
 .btn-experience {
     margin-top: -100px;
+
     height: 150px;
 
 }
@@ -190,11 +186,7 @@ main {
 
 }
 
-.facts-title {
-    font-weight: 700;
-    font-size: 45px;
-    margin-bottom: 24px;
-}
+
 
 .facts {
     height: 100px;
@@ -208,4 +200,53 @@ main {
 
 .facts:hover {
     background-color: bisque;
+}
+
+
+
+
+
+
+.design-container {
+    padding: 20px;
+    background-color: #FFF4E7;
+    text-align: center;
+
+}
+
+.design-container img {
+    height: 200px;
+}
+
+
+.burj-title {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+
+
+
+.sponsors-data {
+    text-align: center;
+}
+
+.sponsors-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px
+}
+
+
+
+
+
+footer {
+    background-color: #FFF4E7;
+    margin-top: 100px;
+    margin-bottom: 150px;
+    padding: 40px;
+    text-align: center;
 }
