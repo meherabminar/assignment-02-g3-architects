@@ -3,9 +3,6 @@
  ----------*/
 * {
     margin: 0;
-}
-
-body {
     font-family: 'Exo 2', sans-serif;
     font-family: 'Itim', cursive;
 }
@@ -16,8 +13,18 @@ body {
     color: whitesmoke;
     border: 0;
     border-radius: 10px;
+    font-weight: 600;
+    font-size: 20px;
 }
 
+main {
+    max-width: 1100px;
+    margin: 0 auto
+}
+
+.container {
+    margin-top: 100px;
+}
 
 
 /*------------------------
@@ -32,7 +39,7 @@ body {
 
 }
 
-.container {
+.banner-container {
     max-width: 1100px;
     margin: 0 auto;
 }
@@ -86,4 +93,119 @@ body {
 .banner img {
     width: 1100px;
     height: 600px;
+}
+
+
+/*-------------------
+ team-work section
+-------------------- */
+
+
+.team-work {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+
+.all-teams {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.team-work-title {
+    font-weight: 500;
+    font-size: 45px;
+    margin-bottom: 24px;
+}
+
+.colored-title {
+    color: rgb(64, 45, 172);
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.teamwork-description {
+    margin-bottom: 32px;
+}
+
+
+
+/*------------------
+ features section
+------------------- */
+
+
+.features-container {
+    display: flex;
+}
+
+.features-container img {
+    width: 600px;
+    height: 800px;
+}
+
+.features-container-title {
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 24px;
+}
+
+.features {
+    width: 400px;
+
+    margin-top: 30px;
+    padding: 20px;
+    background-color: rgb(255, 250, 240);
+    box-shadow: 0px 6px 10px rgb(92, 91, 91);
+    border-radius: 10px;
+}
+
+.feature-title {
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 10px;
+
+}
+
+.btn-experience {
+    margin-top: -100px;
+    height: 150px;
+
+}
+
+.btn-bold {
+    font-weight: 700;
+    font-size: 40px;
+
+}
+
+
+
+
+.facts-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+
+}
+
+.facts-title {
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 24px;
+}
+
+.facts {
+    height: 100px;
+    width: 100px;
+    border: 2px solid darkred;
+    border-radius: 20px;
+    padding: 50px;
+    align-items: center;
+
+}
+
+.facts:hover {
+    background-color: bisque;
 }
